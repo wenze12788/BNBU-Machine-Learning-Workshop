@@ -122,7 +122,7 @@ Upload the CSV to Kaggle to get your score!
 
 ## 📝 Author
 - Kaggle: Spaceship Titanic Solution
-- GitHub: [Your Username]
+- GitHub: (https://github.com/wenze12788/BNBU-Machine-Learning-Workshop)
 
 # Spaceship Titanic 竞赛项目中文 README
 
