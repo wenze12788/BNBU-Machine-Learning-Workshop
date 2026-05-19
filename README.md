@@ -23,7 +23,7 @@ This project is a solution for the **Spaceship Titanic** Kaggle competition, whe
 
 ### Install Dependencies
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy scikit-learn xgboost
 ```
 
 ### Core Libraries
@@ -38,14 +38,15 @@ xgboost
 
 ## 📂 Project Structure
 ```
-/workshop/
-├── train.csv               # Training data
-├── test.csv                # Test data
-├── main.ipynb              # Full pipeline code
-├── README.md               # Project documentation
-├── submission_random_forest.csv   # RF submission
-├── submission_logistic_regression.csv  # LR submission
-└── other model submissions
+BNBU-Machine-Learning-Workshop/
+├── train.csv                 # Original training dataset
+├── test.csv                  # Original test dataset
+├── logistic_regression.ipynb # Logistic Regression model pipeline
+├── knn.ipynb                 # KNN model pipeline
+├── random_forest.ipynb       # Random Forest model pipeline
+├── SVM.ipynb                 # SVM model pipeline
+├── xgboost.ipynb             # XGBoost model pipeline
+└── README.md                 # Project documentation
 ```
 
 ---
@@ -55,9 +56,7 @@ xgboost
 1. Download `train.csv` and `test.csv` from Kaggle
 2. Place them in your project folder (e.g., `Desktop/workshop/`)
 3. Update the path in code if needed:
-   ```python
-   workshop_path = r'C:\Users\shomo\Desktop\workshop'
-   ```
+
 
 ### 2. Run the Full Pipeline
 Execute the notebook/script in order:
@@ -167,14 +166,15 @@ pip install pandas numpy scikit-learn xgboost
 ## 📁 项目目录结构
 
 ```Plain Text
-workshop/
-├── train.csv                                   # 训练集数据
-├── test.csv                                    # 测试集数据
-├── main.ipynb                                  # 完整代码流水线
-├── submission_logistic_regression.csv          # 逻辑回归提交结果
-├── submission_random_forest.csv                # 随机森林提交结果
-└── README.md                                   # 项目说明文档
-```
+BNBU-Machine-Learning-Workshop/
+├── train.csv                 # Original training dataset
+├── test.csv                  # Original test dataset
+├── logistic_regression.ipynb # Logistic Regression model pipeline
+├── knn.ipynb                 # KNN model pipeline
+├── random_forest.ipynb       # Random Forest model pipeline
+├── SVM.ipynb                 # SVM model pipeline
+├── xgboost.ipynb             # XGBoost model pipeline
+└── README.md                 # Project documentation
 
 ---
 
