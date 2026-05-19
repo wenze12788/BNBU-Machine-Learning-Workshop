@@ -23,7 +23,7 @@ This project is a solution for the **Spaceship Titanic** Kaggle competition, whe
 
 ### Install Dependencies
 ```bash
-pip install pandas numpy scikit-learn xgboost
+pip install pandas numpy scikit-learn xgboost seaborn
 ```
 
 ### Core Libraries
@@ -32,6 +32,7 @@ pandas
 numpy
 scikit-learn
 xgboost
+seaborn
 ```
 
 ---
@@ -158,7 +159,7 @@ Upload the CSV to Kaggle to get your score!
 ### 一键安装依赖
 
 ```Plain Text
-pip install pandas numpy scikit-learn xgboost
+pip install pandas numpy scikit-learn xgboost seaborn
 ```
 
 ---
@@ -166,15 +167,15 @@ pip install pandas numpy scikit-learn xgboost
 ## 📁 项目目录结构
 
 ```Plain Text
-BNBU-Machine-Learning-Workshop/
-├── train.csv                 # Original training dataset
-├── test.csv                  # Original test dataset
-├── logistic_regression.ipynb # Logistic Regression model pipeline
-├── knn.ipynb                 # KNN model pipeline
-├── random_forest.ipynb       # Random Forest model pipeline
-├── SVM.ipynb                 # SVM model pipeline
-├── xgboost.ipynb             # XGBoost model pipeline
-└── README.md                 # Project documentation
+BNBU-Machine-Learning-Workshop/  # BNBU 机器学习工作坊（项目根目录）
+├── train.csv                 # 原始训练数据集（用于模型训练）
+├── test.csv                  # 原始测试数据集（用于模型评估/预测）
+├── logistic_regression.ipynb # 逻辑回归模型完整流程代码
+├── knn.ipynb                 # K近邻模型完整流程代码
+├── random_forest.ipynb       # 随机森林模型完整流程代码
+├── SVM.ipynb                 # 支持向量机模型完整流程代码
+├── xgboost.ipynb             # XGBoost 模型完整流程代码
+└── README.md                 # 项目说明文档（介绍、使用方法、结果等）
 
 ---
 
@@ -272,4 +273,3 @@ workshop_path = r'C:\Users\shomo\Desktop\workshop'
 
 本项目为个人学习练习项目，仅供机器学习入门与 Kaggle 竞赛学习参考。
 
-> （注：文档部分内容可能由 AI 生成）
